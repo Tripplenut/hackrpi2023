@@ -1,0 +1,17 @@
+.base{
+  background-image: linear-gradient(to bottom right, #E0C3FC, #8A6DE9);
+  height: 100vh;
+}
+
+.forms{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.search{
+  width: 100%;
+  height: 40px;
+  align-self: center;
+}
