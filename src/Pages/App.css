@@ -1,5 +1,5 @@
 .base{
-  background-image: linear-gradient(to bottom right, #E0C3FC, #8A6DE9);
+  /*background-image: linear-gradient(to bottom right, #E0C3FC, #8A6DE9);*/
   min-height: 100vh;
   overflow: auto;
 }

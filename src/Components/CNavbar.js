@@ -1,3 +1,4 @@
+import React from 'react';
 import { Navbar, Container } from 'react-bootstrap';
 
 export default function CNavbar(){

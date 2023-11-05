@@ -1,8 +1,12 @@
+// React & Node Imports
+import React from 'react';
 import { useState } from 'react';
+
+// Components & Styling Imports
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, Container, Form} from 'react-bootstrap';
 import CNavbar from '../Components/CNavbar';
 import Output from '../Components/Output';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 export default function App(){
@@ -26,10 +30,9 @@ export default function App(){
     // Convert object to string
     const json = JSON.stringify(obj)
 
-    //Temporary
-    console.log(json)
+    console.log(json);
     SetSearched(true);
-  } 
+  }
 
   const jsonData = [
     [
@@ -86,7 +89,6 @@ export default function App(){
         </Container>
 
         {searched && <Output data={jsonData} className='mt-5 mb-5'/>}
-        
 
       </Container>
     </div>
