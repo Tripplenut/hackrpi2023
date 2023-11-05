@@ -10,6 +10,8 @@
 
 # production
 /build
+!/build/index.html
+!/build/manifest.json
 
 # misc
 .DS_Store
