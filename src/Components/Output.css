@@ -1,0 +1,22 @@
+.title{
+  color: #0275d8;
+}
+
+.fields{
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.fields:hover{
+  background-color: #D198F9;
+}
+
+.links{
+  color: blue;
+  font-size: 20px;
+}
+
+.links:hover{
+  color: lightblue;
+}
