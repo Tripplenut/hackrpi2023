@@ -2,7 +2,11 @@ import React from 'react';
 import { Container } from "react-bootstrap";
 import "./Output.css"
 
-// Data = A json array of tuple
+/** Data = An Object
+ * Data.similarity - int = Similarity of text to query
+ * Data.url - string = The url
+ * Data.text - string = The text
+ */
 export default function Output({data}){
 
   return (
@@ -16,11 +20,11 @@ export default function Output({data}){
 
           <a
             className='links'
-            href={info[1]}>
-            {info[1]} 
+            href={info.url}>
+            {info.url} 
           </a>
 
-          <p>{info[0]}</p>
+          <p>{info.text}</p>
 
         </div>
       ))}

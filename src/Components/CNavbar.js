@@ -5,7 +5,7 @@ export default function CNavbar(){
   return (
     <Navbar bg="dark" variant="dark" expand="lg" style={{ borderRadius: '10px' }}>
       <Container>
-        <Navbar.Brand href="#">Google++</Navbar.Brand>
+        <Navbar.Brand href="#">Query.Select</Navbar.Brand>
       </Container>
     </Navbar>
   );
