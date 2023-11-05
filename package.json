@@ -2,10 +2,10 @@
   "name": "hackrpi2023",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hackrpi2023search-520a583be5b3.herokuapp.com/",
+  "homepage": "https://tripplenut.github.io/hackrpi2023",
   "dependencies": {
     "bootstrap": "^5.3.2",
-    "child_process": "^1.0.2",
+    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.9.1",
     "react-dom": "^18.2.0",
@@ -13,7 +13,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "webpack"
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
