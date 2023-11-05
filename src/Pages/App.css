@@ -1,6 +1,7 @@
 .base{
   background-image: linear-gradient(to bottom right, #E0C3FC, #8A6DE9);
-  height: 100vh;
+  min-height: 100vh;
+  overflow: auto;
 }
 
 .forms{
@@ -14,4 +15,12 @@
   width: 100%;
   height: 40px;
   align-self: center;
+}
+
+.search-performed{
+  background-color: #28a745;
+}
+
+.search-performed:hover{
+  background-color: #218838;
 }
